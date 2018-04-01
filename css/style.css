@@ -1,0 +1,419 @@
+/*
+
+@Author: Gabriel Pereira da Cruz
+@PROJETO DO SITE - MINISTÉRIO PHILÉO
+
+*/
+@font-face {
+	 font-family: 'roboto';
+     src: url('../bootstrap/fonts/RobotoCondensed-Light.ttf');
+}
+
+html, body, .capa{
+	height: 101%;
+}
+
+body {
+	padding-top: 10px;
+	background: url('../imagens/img-inicio.jpeg');
+    background-position: center -50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+	
+}
+@media screen and (min-width: 480px) {
+    body {
+         background-position: top-50%;
+    }
+}
+
+/* BARRA NAVEGAÇÃO */
+
+	/* PRÉ CONFIGURAÇÕES*/
+nav.navbar-default{
+	background-color: #fff;
+}
+
+.navbar .navbar-nav {
+display: inline-block;
+float: none !important;
+}
+
+.navbar .navbar-collapse {
+text-align: center;
+}
+.navbar-toggle {
+	background-color: transparent!important;
+}
+.navbar-toggle:hover {
+	background-color: #EEEEEE!important;
+}
+.navbar-toggle .icon-bar{
+	background-color: black!important;
+}
+
+#barra-navegacao ul>li>a{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 525;
+	font-family: roboto;
+	font-size: 21px;
+}
+
+#barra-navegacao ul>li>a:hover{
+	background-color: #ECF0F1;
+}
+
+
+	/* FIM PRÉ CONFIGURAÇÕES*/
+
+
+/*	Capa Principal*/
+
+.capa{	
+	display: table;
+	margin-top: 0px;
+	width: 100%;
+ }
+
+.texto-capa{
+	color: white;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	text-shadow: 2px 2px #000;
+
+}
+
+#integrantes{
+	padding: 56px 0px 20px 0px;
+	background-color: #fff;
+	min-height: 1000px;
+}
+
+#integrantes h2{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.card{
+	width: 100%;
+	height: 800px;
+	margin-bottom: 30px;
+	background-color: #f7f7f7;
+	color: #665;
+}
+
+.photo{
+	width: 100%;
+}
+
+.card h3{
+	font-family: roboto;
+	text-align: center;
+	font-size: 2em;
+}
+
+.card h4{
+	font-family: roboto;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.card p{
+	text-indent: 1.5em;
+	font-family: roboto;
+	text-align: justify;
+	font-size: 1.3em;
+	margin: 0px 7px 15px 7px;
+ 
+}
+
+#redes-sociais{
+	width: 100%;
+	
+}
+
+#facebook {
+	width: 60px;
+	margin-right: 10px;
+	margin-left: 33%;
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+	.card{
+		width: 100%;
+		height: 1250px;
+		margin-bottom: 30px;
+		background-color: #f7f7f7;
+		color: #665;
+	}
+
+    #facebook {
+		width: 60px;
+		margin-right: 10px;
+		margin-left: 40%;
+	}
+
+	.card p{
+		text-indent: 1.5em;
+		font-family: roboto;
+		text-align: justify;
+		font-size: 2em;
+		margin: 0px 7px 15px 7px;
+	}
+
+	.card h3{
+		font-family: roboto;
+		text-align: center;
+		font-size: 4em;
+	}
+
+	.card h4{
+		font-family: roboto;
+		text-align: center;
+		font-size: 2.7em;
+	}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+	.card{
+		width: 100%;
+		height: 980px;
+		margin-bottom: 30px;
+		background-color: #f7f7f7;
+		color: #665;
+	}
+
+    #facebook {
+		width: 60px;
+		margin-right: 10px;
+		margin-left: 35%;
+	}
+
+	.card p{
+		text-indent: 1.5em;
+		font-family: roboto;
+		text-align: justify;
+		font-size: 1.7em;
+		margin: 0px 7px 15px 7px;
+	 
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.card{
+		width: 100%;
+		height: 690px;
+		margin-bottom: 30px;
+		background-color: #f7f7f7;
+		color: #665;
+	}
+
+    #facebook {
+		width: 60px;
+		margin-right: 10px;
+		margin-left: 19%;
+	}
+	.card p{
+		text-indent: 1.5em;
+		font-family: roboto;
+		text-align: justify;
+		font-size: 1.2em;
+		margin: 0px 7px 15px 7px;
+	}
+
+	.card h3{
+		font-family: roboto;
+		text-align: center;
+		font-size: 1.7em;
+	}
+
+	.card h4{
+		font-family: roboto;
+		text-align: center;
+		font-size: 1.35em;
+	}
+
+}
+
+.rede-social-size{
+	width: 50px;
+	margin-right: 16px;
+}
+
+#multimidia{
+	padding: 56px 0px 20px 0px;
+	background-color:transparent;
+}
+
+#multimidia h2{
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+	text-shadow: 2px 2px #000;
+}
+
+#carousel-photo{
+	margin-bottom: 20px;
+}
+
+#carousel-video{
+	margin-bottom: 20px;
+}
+
+.m{
+	padding: 0px 30% 0px 30%;
+}
+
+
+
+footer{
+	padding: 56px 0px 20px 0px;
+	background-color:black;
+}
+
+footer h2{
+	text-align: center;
+	margin-bottom: 60px;
+	color: #fff;
+}
+
+footer h3{
+	color: white;
+	text-align: center;
+	font-size: 3em !important;
+}
+
+@media screen and (max-width: 480px) {
+	footer h3{
+		color: white;
+		text-align: center;
+		font-size: 6vw !important;
+	}
+}
+
+.inline{
+	display: inline !important;
+}
+
+.rede-social-size-footer{
+	width: 10%;
+	margin-right: 16px;
+	margin-bottom: 30px;
+}
+
+.contatos-size-footer{
+	width: 10%;
+	margin-right: 16px;
+	margin-left: 5%;
+	margin-bottom: 30px;
+}
+
+.nome-rede-social{
+	color: white;
+	vertical-align: 25%;
+	font-family: roboto;
+	font-size: 2vw !important;
+}
+
+.nome-contatos{
+	color: white;
+	vertical-align: 35%;
+	font-family: roboto;
+	font-size: 1.5vw !important;
+}
+
+.linha{
+		width: 90%;
+		height:20% ;
+		margin: 0px auto 0px auto;
+		border-right: 1px solid white!important; 
+	}
+
+@media screen and (max-width: 768px) {
+	.rede-social-size-footer{
+		width: 10%;
+		margin-right: 16px;
+		margin-bottom: 30px;
+	}
+
+	.col-sm-12{
+		margin: 0px auto 0px auto;
+	}
+
+	.nome-rede-social{
+		color: white;
+		vertical-align: 25%;
+		font-family: roboto;
+		font-size: 5vw !important;
+	}
+
+	.linha{
+		width: ;
+		height: ;
+		margin: 0px auto 10px auto;
+		border-right: none !important;
+		border-bottom:  1px solid white; 
+	}
+
+	.nome-contatos{
+		color: white;
+		vertical-align: 50%;
+		font-family: roboto;
+		font-size: 5vw !important;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.rede-social-size-footer{
+		width: 10%;
+		margin-right: 16px;
+		margin-bottom: 30px;
+	}
+
+	.col-sm-12{
+		margin: 0px auto 0px auto;
+	}
+
+	.nome-rede-social{
+		color: white;
+		vertical-align: 25%;
+		font-family: roboto;
+		font-size: 2vw !important;
+	}
+
+	.linha{
+		width: ;
+		height: ;
+		margin: 0px auto 10px auto;
+		border-right: 1px solid white!important;
+		border-bottom: none; 
+	}
+
+	.nome-contatos{
+		color: white;
+		vertical-align: 50%;
+		font-family: roboto;
+		font-size: 2vw !important;
+	}
+
+}
+
+
+/*=================FONTES=======================*/
+
+h1 {
+	font-size: 9vw !important;
+	font-weight: 900;
+}
+h2 {
+	font-size: 3em !important;
+	font-weight: 900;
+}
